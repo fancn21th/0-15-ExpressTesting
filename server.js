@@ -1,3 +1,10 @@
-/**
- * Created by fancn on 2017/5/2.
- */
+var express = require('express');
+var app = express();
+
+app.get('/', function (req, res) {
+  res.send('hello world!')
+});
+
+var server = app.listen(3001, function () {
+  console.log('Server running at http://localhost:' + server.address().port)
+})
