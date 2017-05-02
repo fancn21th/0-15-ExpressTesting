@@ -1,0 +1,23 @@
+{
+  "name": "0-15-ExpressTesting",
+  "version": "1.0.0",
+  "description": "Express Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fancn21th/0-15-ExpressTesting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fancn21th/0-15-ExpressTesting/issues"
+  },
+  "homepage": "https://github.com/fancn21th/0-15-ExpressTesting#readme",
+  "devDependencies": {
+    "express": "^4.15.2"
+  }
+}
